@@ -1,6 +1,50 @@
 import type { Experience } from '../types'
 
+const medlinxStack = [
+  'Node.js',
+  'Express.js',
+  'Golang',
+  'Laravel',
+  'Lumen',
+  'Vue.js',
+  'Elasticsearch',
+  'Redis',
+  'Socket.io',
+  'MySQL',
+  'PostgreSQL',
+  'MongoDB',
+]
+
 export const experiences: Experience[] = [
+  {
+    company: 'PT Medlinx Asia Teknologi',
+    period: 'Februari 2021 – Sekarang',
+    description:
+      'Perusahaan penyedia jasa layanan teknologi informasi dan solusi digital yang berfokus pada industri kesehatan dan asuransi di Indonesia.',
+    projects: [
+      {
+        title: 'Izidok',
+        role: 'Fullstack Developer',
+        description:
+          'Platform rekam medis elektronik terintegrasi yang ditujukan bagi dokter praktik mandiri dan klinik. Terintegrasi dengan BPJS, Satusehat, Omni channel, dan Payment Gateway.',
+        technologies: medlinxStack,
+      },
+      {
+        title: 'Farmazi',
+        role: 'Fullstack Developer',
+        description:
+          'Platform transaksi farmasi yang menghubungkan apotek dan distributor secara aman.',
+        technologies: medlinxStack,
+      },
+      {
+        title: 'Iziklaim',
+        role: 'Fullstack Developer',
+        description:
+          'Solusi digital berbasis Third Party Administrator (TPA) untuk pengelolaan klaim asuransi kesehatan dan efisiensi biaya perusahaan.',
+        technologies: medlinxStack,
+      },
+    ],
+  },
   {
     company: 'PT ICP Cipta Prima',
     period: 'Agustus 2021 – Mei 2026',

@@ -3,9 +3,9 @@ import type { Profile } from '../types'
 export const profile: Profile = {
   name: 'Luthfi Rohmatulloh',
   title: 'Full Stack Developer',
-  tagline: 'Membangun solusi digital yang scalable, user-centric, dan berdampak.',
+  tagline: 'Belajar, Bekerja, Beribadah (repeat) 😎',
   summary:
-    'Pengembang perangkat lunak berpengalaman dengan fokus pada CRM, Contact Center, dan platform web modern. Terbiasa memimpin proyek end-to-end — dari perancangan arsitektur hingga implementasi frontend dan backend — menggunakan React, Vue, Laravel, dan berbagai stack teknologi.',
+    'Pengembang perangkat lunak berpengalaman dalam membangun platform edutech, travel, healthcare, dan CRM dengan berbagai stack teknologi. Terbiasa menangani proyek end-to-end — dari perancangan arsitektur hingga implementasi frontend dan backend — pada lingkup produk yang berdampak langsung ke operasional bisnis dan layanan pengguna.',
   contact: {
     phone: '088216124232',
     email: 'luthfirohmatulloh19@gmail.com',
@@ -14,5 +14,5 @@ export const profile: Profile = {
     github: 'github.com/anficena',
     githubUrl: 'https://github.com/anficena',
   },
-  cvPath: '/CV-Luthfi_R-23072026.pdf',
+  cvPath: '/CV-Luthfi_R-15092026.pdf',
 }
